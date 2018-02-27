@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    #box{
+        display: flex;
+    }
+    .progress{
+        border: 1px solid #ddd;
+        width: 500px;
+        height: 500px;
+        overflow-y: scroll;
+    }
+</style>
+<body>
+    <h4>项目：区域分部</h4>
+    <div id="box">
+        <div class="progress" id="progress">
+
+        </div>
+        <div class="progress" id="details">
+            
+        </div>
+    </div>
+    <script src="/socket.io.js"></script>
+    <script>
+        var progress=document.getElementById('progress')
+        var details=document.getElementById('details')
+        var socket = io.connect('http://localhost:3000');
+        socket.on('step', function (data) {
+            var p=document.createElement('p')
+            p.innerText=data.msg
+            progress.appendChild(p)
+        });
+        socket.on('detail', function (data) {
+            var p=document.createElement('p')
+            p.innerText=data.msg
+            details.appendChild(p)
+        });
+    </script>
+</body>
+</html>
