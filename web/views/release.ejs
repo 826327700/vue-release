@@ -31,7 +31,7 @@
     <script>
         var progress=document.getElementById('progress')
         var details=document.getElementById('details')
-        var socket = io.connect('http://localhost:3000');
+        var socket = io.connect('http://120.76.20.11:3000');
         socket.on('step', function (data) {
             var p=document.createElement('p')
             p.innerText=data.msg
