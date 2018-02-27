@@ -17,7 +17,7 @@ function release(id,socket,cb){
         }
         return true;
     }
-
+    var projectPath=process.cwd()+'\\'+project.folder
     function build(){
         socket.emit('step', { msg: '正在更新代码...' });
         exec(
