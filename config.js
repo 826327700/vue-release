@@ -1,4 +1,4 @@
-{
+var config={
     "global":{
         "projectFolder":"project"  
     },
@@ -36,3 +36,4 @@
         "gitFolder":"project/FrontEnd"
     }]
   }
+  module.exports=config
