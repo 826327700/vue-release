@@ -1,4 +1,4 @@
-var config={
+﻿var config={
     "global":{
         "projectFolder":"project"  
     },
@@ -10,28 +10,28 @@ var config={
         "id":1,
         "name":"供应商",
         "folder":"project/FrontEnd/供应商",
-        "sitePath":"D:\\xiaobaozi\\test\\供应商\\dist",
+        "sitePath":"D:\\V21TripSCM\\Web_Supplier\\dist",
         "git":"http://code.tripscm.com:8880/tfs/TripProductCollection/%E9%9B%86%E5%9B%A2%E8%BF%9E%E9%94%81%E5%B9%B3%E5%8F%B0/_git/FrontEnd",
         "gitFolder":"project/FrontEnd"
     },{
         "id":2,
         "name":"分销商",
         "folder":"project/FrontEnd/分销商",
-        "sitePath":"D:\\xiaobaozi\\test\\分销商\\dist",
+        "sitePath":"D:\\V21TripSCM\\Web_Distritor\\dist",
         "git":"http://code.tripscm.com:8880/tfs/TripProductCollection/%E9%9B%86%E5%9B%A2%E8%BF%9E%E9%94%81%E5%B9%B3%E5%8F%B0/_git/FrontEnd",
         "gitFolder":"project/FrontEnd"
     },{
         "id":3,
         "name":"区域分部",
         "folder":"project/FrontEnd/区域分部",
-        "sitePath":"D:\\xiaobaozi\\test\\区域分部\\dist",
+        "sitePath":"D:\\V21TripSCM\\Web_Branch\\dist",
         "git":"http://code.tripscm.com:8880/tfs/TripProductCollection/%E9%9B%86%E5%9B%A2%E8%BF%9E%E9%94%81%E5%B9%B3%E5%8F%B0/_git/FrontEnd",
         "gitFolder":"project/FrontEnd"
     },{
         "id":4,
         "name":"门店",
         "folder":"project/FrontEnd/门店",
-        "sitePath":"D:\\xiaobaozi\\test\\门店\\dist",
+        "sitePath":"D:\\V21TripSCM\\Web_Shop\\dist",
         "git":"http://code.tripscm.com:8880/tfs/TripProductCollection/%E9%9B%86%E5%9B%A2%E8%BF%9E%E9%94%81%E5%B9%B3%E5%8F%B0/_git/FrontEnd",
         "gitFolder":"project/FrontEnd"
     }]
